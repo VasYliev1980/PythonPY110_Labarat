@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 149
-    length: 92
+    length: 72
     placeholder_text: "...  # используй ключевую у функции min, по которой она дол\
       на определять минимальный элемент"
     initial_state:
@@ -12,7 +12,7 @@ files:
       offset: 149
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: "min(list_words, key=len)"
   text: |
     def task() -> str:
@@ -38,5 +38,8 @@ files:
   text: |
     Cyan
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 17 Dec 2022 11:35:26 UTC"
 record: -1
